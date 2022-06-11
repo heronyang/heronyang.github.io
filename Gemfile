@@ -1,9 +1,8 @@
 source "https://rubygems.org"
 
-# Add plugins.
 group :jekyll_plugins do
   gem "github-pages"
-  gem "jekyll-remote-theme"
+  gem "jekyll-include-cache"
 end
 
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]

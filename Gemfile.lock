@@ -258,8 +258,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   http_parser.rb (~> 0.6.0)
-  jekyll-feed (~> 0.12)
-  jekyll-remote-theme
+  jekyll-include-cache
   webrick (~> 1.7)
 
 BUNDLED WITH

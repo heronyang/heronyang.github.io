@@ -9,5 +9,39 @@ destination: dst
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
-# remote_theme: Drassil/git-wiki-skeleton
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air"
+
+search: true
+search_full_content: true
+
+# Site Author
+author:
+  name: Heron Yang
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-globe"
+      url: "http://www.heron.me"
+
+# Site Footer
+footer:
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-globe"
+      url: "http://www.heron.me"
