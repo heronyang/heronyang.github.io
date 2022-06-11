@@ -9,5 +9,5 @@ $ ./setup.sh
 ## Run Locally
 
 ```
-$ bundle exec jekyll serve -H 0.0.0.0 -P 4000
+$ ./run_locally.sh
 ```

@@ -2,11 +2,12 @@ title: Heron's Knowledge
 email: heron.yang.tw@gmail.com
 description: >-
   Heron's knowledge base around everything.
-baseurl: ""
 url: "knowledge.heron.me"
-repository: heronyang/heronyang.github.io
+
+source: src
+destination: dst
 
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
 
-exclude: ['README.md', 'setup.sh', 'Gemfile.lock', 'Gemfile']
+# remote_theme: Drassil/git-wiki-skeleton
