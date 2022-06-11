@@ -8,6 +8,15 @@ $ ./setup.sh
 
 ## Run Locally
 
+Add `GEM_HOME` to `$PATH`:
+
 ```
-$ ./run_locally.sh
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"
+```
+
+Then:
+
+```
+$ ./run.sh
 ```

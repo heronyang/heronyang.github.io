@@ -4,9 +4,6 @@ description: >-
   Heron's knowledge base around everything.
 url: "knowledge.heron.me"
 
-source: docs
-destination: build
-
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
@@ -30,6 +27,8 @@ minimal_mistakes_skin: "air"
 
 search: true
 search_full_content: true
+
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "run.sh", "setup.sh"]
 
 # Site Author
 author:
