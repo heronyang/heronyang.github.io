@@ -4,8 +4,9 @@ description: >-
   Heron's knowledge base around everything.
 baseurl: ""
 url: "knowledge.heron.me"
-github_username:  heronyang
+repository: heronyang/heronyang.github.io
 
-theme: minima
 plugins:
   - jekyll-feed
+
+exclude: ['README.md', 'setup.sh', 'Gemfile.lock', 'Gemfile']

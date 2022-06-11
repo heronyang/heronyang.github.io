@@ -6,8 +6,8 @@
 $ ./setup.sh
 ```
 
-## Run
+## Run Locally
 
 ```
-$ sudo bundle3.0 exec jekyll serve -H 0.0.0.0 -P 4000
+$ bundle exec jekyll serve -H 0.0.0.0 -P 4000
 ```
