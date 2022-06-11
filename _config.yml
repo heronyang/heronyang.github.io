@@ -1,7 +1,7 @@
 title: Heron's Knowledge
 email: heron.yang.tw@gmail.com
-description: >-
-  Heron's knowledge base around everything.
+description: Heron's knowledge base of everything.
+
 baseurl: ""
 url: "http://knowledge.heron.me"
 
@@ -20,11 +20,12 @@ whitelist:
 
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "README.md", "run.sh", "setup.sh"]
 
-# [Theme specific]
 search_enabled: true
 
 # Aux links for the upper right navigation
 aux_links:
+  "Home":
+    - "/"
   "More about Heron":
     - "http://www.heron.me"
 
@@ -37,8 +38,6 @@ footer_content: "Copyright &copy; Heron Yang"
 last_edit_timestamp: true
 color_scheme: dark
 # ga_tracking: UA-5555555-55
-
-permalink: pretty
 
 back_to_top: true
 back_to_top_text: "Back to top"
