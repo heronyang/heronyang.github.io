@@ -37,9 +37,13 @@ last_edit_timestamp: true
 color_scheme: dark
 # ga_tracking: UA-5555555-55
 
+permalink: pretty
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
 collections:
   dev:
-    permalink: "/:collection/:path/"
     output: true
 
 just_the_docs:
