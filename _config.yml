@@ -2,7 +2,8 @@ title: Heron's Knowledge
 email: heron.yang.tw@gmail.com
 description: >-
   Heron's knowledge base around everything.
-url: "knowledge.heron.me"
+baseurl: ""
+url: "http://knowledge.heron.me"
 
 remote_theme: just-the-docs/just-the-docs
 
