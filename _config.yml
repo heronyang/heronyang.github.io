@@ -29,9 +29,6 @@ aux_links:
   "More about Heron":
     - "http://www.heron.me"
 
-# Makes Aux links open in a new tab.
-aux_links_new_tab: true
-
 footer_content: "Copyright &copy; Heron Yang"
 
 # Footer last edited timestamp
