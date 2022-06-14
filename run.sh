@@ -1,2 +1,3 @@
 #!/usr/bin/bash
-bundler exec jekyll serve -H 0.0.0.0 -P 4000
+HOST="${HOST:-0.0.0.0}"
+bundler exec jekyll serve -H $HOST -P 4000
